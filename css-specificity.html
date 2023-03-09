@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        .abc {
+            color: red;
+        }
+        .qwer {
+            color: pink;
+        }
+        #xyz {
+            color: green;
+        }
+        /* 
+            權重:套用樣式的先後順序
+            影響的元素越少，權重越大，順序越優先
+            影響的元素越多，權重越小，順序越後面
+            物以稀為貴
+            ID > CLASS > TAG
+            100 > 10 > 1
+            當權重相同時，後寫的樣式會套用。
+        */
+    </style>
+</head>
+<body>
+    <h1 class="abc" id="xyz">hello css</h1>
+    <h1 class="abc qwer">hello css</h1>
+    <h1>hello css</h1>
+</body>
+</html>
