@@ -9,11 +9,11 @@
         h1 {
             color: blue;
         }
-        .abc {
-            color: red;
-        }
         .qwer {
             color: pink;
+        }
+        .abc {
+            color: rgb(0, 191, 255)!important;
         }
         #xyz {
             color: green;
@@ -23,15 +23,16 @@
             影響的元素越少，權重越大，順序越優先
             影響的元素越多，權重越小，順序越後面
             物以稀為貴
-            ID > CLASS > TAG
-            100 > 10 > 1
+
+            !important > 嵌入式 > ID > CLASS > TAG
+            
             當權重相同時，後寫的樣式會套用。
         */
     </style>
 </head>
 <body>
-    <h1 class="abc" id="xyz">hello css</h1>
+    <h1 class="abc" id="xyz" style="color: greenyellow;">hello css</h1>
     <h1 class="abc qwer">hello css</h1>
-    <h1>hello css</h1>
+    <h1 class="abc">hello css</h1>
 </body>
 </html>
