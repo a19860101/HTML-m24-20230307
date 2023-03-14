@@ -7,14 +7,20 @@
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Genos:wght@100;400;900&family=Noto+Serif+TC:wght@400;900&display=swap');
+        body {
+            font-family: 'Genos','Noto Serif TC';
+        }
         h1 {
             color: #bcf27e;
             text-align: justify;
             /* left, center, right, justify */
 
             letter-spacing: 5px;
-            font-family: 'Genos','Noto Serif TC';
             font-weight: 900;
+
+            /* 字體大小寫 */
+            text-transform: capitalize;
+            /* uppercase, lowercase, capitalize */
         }
         p {
             text-align: justify;
@@ -40,13 +46,13 @@
             
             /* 字體 */
             font-size: 1rem;
-            font-weight: lighter;
+            font-weight: normal;
             /* 100-900, normal, bold, bolder, lighter */
             font-style: normal;
             /* normal, italic */
 
             /* font-family: 'Franklin Gothic', '微軟正黑體', sans-serif; */
-            font-family: 'Genos','Noto Serif TC';
+            /* font-family: 'Genos','Noto Serif TC'; */
             /* 
                 sans-serif 非襯線字
                 serif 襯線字
@@ -66,6 +72,7 @@
 
                 georgia
             */
+            text-transform: capitalize;
         }
     </style>
 </head>
