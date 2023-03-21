@@ -103,3 +103,28 @@ header img {
 .folio-item a:hover {
     opacity: 1;
 }
+/* CONTACT */
+#contact {
+    padding: 130px 0;
+    background-color: #dafff4;
+}
+.contact-form {
+    width: 100%;
+}
+.form-label {
+    margin-bottom: 10px;
+    display: block;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+.form-control:focus {
+    outline: 2px solid #1dcf9a;
+    border-color:  transparent
+}
+.form-group {
+    margin-bottom: 10px;
+}
