@@ -109,7 +109,8 @@ header img {
     background-color: #dafff4;
 }
 .contact-form {
-    width: 100%;
+    width: 60%;
+    margin: auto;
 }
 .form-label {
     margin-bottom: 10px;
@@ -127,4 +128,15 @@ header img {
 }
 .form-group {
     margin-bottom: 10px;
+}
+.btn {
+    padding: 8px 30px;
+    background-color: #1dcf9a;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #62eec4;
 }
