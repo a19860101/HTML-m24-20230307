@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 9999;
 }
 .logo {
     padding: 0 10px;
@@ -54,6 +54,17 @@ header {
     width: 100%;
     height: 600px;
     background-color: #ccc;
+    position: relative;
+}
+header h1 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 15px;
 }
 header img {
     height: 100%;
@@ -63,26 +74,39 @@ header img {
 /* ABOUT */
 #about {
     background-color: #dafff4;
+   
+}
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    position: absolute;
+    right: 0px;
+    bottom:300px;
+    z-index: 99;
 }
 #about .container {
     align-items: center;
 }
 .about-avatar {
     width: 50%;
-    padding: 130px;
+    padding: 50px;
     position: relative;
     right: 100px;
     z-index: 44;
 }
 .about-avatar img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .about-content {
     width: 50%;
-    padding-left: 130px;
     position: relative;
-    left: 100px;
+    border-radius: 15px;
+    padding: 50px;
+    left: 130px;
+    bottom: 50px;
     z-index: 66;
+    background-color: #fff;
 }
 .about-content h2 {
     font-size: 3rem;
