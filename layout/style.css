@@ -79,3 +79,17 @@ header img {
 .about-content p {
     line-height: 2rem;
 }
+/*  FOLIO */
+#folio .container {
+    background-color: #111;
+}
+.folio-item {
+    width: 20%;
+    /* padding:10px; */
+}
+.folio-item a {
+    opacity: .4;
+}
+.folio-item a:hover {
+    opacity: 1;
+}
